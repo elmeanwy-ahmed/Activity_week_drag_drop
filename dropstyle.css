@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background: linear-gradient(rgb(94, 94, 237),rgb(0, 255, 200),rgb(218, 239, 85));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+.inputs{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 32px;
+    text-transform: capitalize;
+    /* text-align: center; */
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
+.data input{
+    padding: 4px;
+    outline: none;
+    border: 1px solid rgb(94, 94, 237);
+}
+.data button{
+    background-color: rgb(21, 128, 105);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start; /*بيخلي المحتوى بياخد حجم مضبوط*/
+}
+.box{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.items{
+    background-color: rgb(21, 128, 105);
+    padding: 10px;
+    margin: 6px;
+    cursor: move;
+    color: #fff;
+    border-radius: 10px;
+}
